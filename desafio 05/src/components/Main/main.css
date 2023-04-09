@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: white;
+}
+
+body,html{
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    height: 100vh;
+    padding: 1rem 25rem 0 22rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 5rem;
+}
+
+.info-container{
+  width: 100%;
+}
+
+
+.info-text h1{
+  font-size: 3.5rem;
+  line-height: 4rem;
+  margin: 1rem 0;
+}
+
+.info-btn{
+  margin-top: 5rem;
+}
+
+.info-btn button {
+ 
+  background: none;
+  border: none;
+  padding: 10px;
+  margin-right: 2rem;
+  transform: skew(-24deg);
+  cursor: pointer;
+}
+
+.info-btn .btn-01{
+  background-color: #658E76;
+}
+
+.info-btn .btn-02{
+  border: 1px solid white;
+}
+
+.image img{
+  width: 29rem;
+}
+
+@media (width < 321px) {
+
+  body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#628E75 100%, #1A4855 100%);
+    
+  }
+
+  .main{
+    height: 100vh;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 8rem;
+  }
+
+
+  .info-text h2{
+    font-size: 3rem;
+  }
+
+  .image{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image img{
+    padding-left: 2rem;
+    width: 23rem;
+  }
+
+  .info-container{
+    width: 100%;
+
+    display: flex;
+    
+  
+  }
+
+  .info-text{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+   
+    margin-left: 2rem;
+  }
+
+  .info-text h2{
+    font-size: 1.2rem;
+  }
+
+  .info-text h1{
+    font-size: 2.5rem;
+  }
+
+  .info-text p{
+    font-size: 1rem;
+    width: 14rem;
+  }
+
+  .info-btn {
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-left: -0.9rem;
+   
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .info-btn button{
+   
+    margin: 0; 
+  }
+
+  .info-btn .btn-01{
+    background-color: #1A4855;
+    margin-right: 0.5rem;
+  }
+
+ 
+
+}
+
