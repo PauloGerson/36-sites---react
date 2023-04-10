@@ -17,11 +17,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0rem;
-    
+    margin-top: 0rem;   
 }
-
-
 .info-text{
   padding-left: 16rem;
   width: 100%;
@@ -64,6 +61,11 @@
   width: 30rem;
 }
 
+@media (min-width: 582px) and (min-height){
+  .main{
+    margin-top: 30rem;
+  }
+}
 @media (max-width: 320px) {
 
   body{
@@ -156,6 +158,26 @@
 
  
 
+}
+
+.image img{
+  transition: 9s;
+  animation: teste infinite 9s backwards;
+}
+
+@keyframes teste{
+  0%{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  50%{
+    opacity: 1;
+    transform: translatey(0px);
+  }
+  100%{
+    opacity: 0;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 375px){
