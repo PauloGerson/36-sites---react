@@ -59,7 +59,7 @@ body,html{
   width: 29rem;
 }
 
-@media (width < 321px) {
+@media (max-width: 321px) {
 
   body{
     width: 100%;
